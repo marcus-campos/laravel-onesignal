@@ -5,13 +5,17 @@
 This is a simple OneSignal wrapper library for Laravel. It simplifies the basic notification flow with the defined methods. You can send a message to all users or you can notify a single user. 
 Before you start installing this service, please complete your OneSignal setup at https://onesignal.com and finish all the steps that is necessary to obtain an application id and REST API Keys.
 
+This fork has new features:
+
+ASYC Notification.
+
 
 ## Installation
 
 First, you'll need to require the package with Composer:
 
 ```sh
-composer require berkayk/onesignal-laravel
+composer require maykonn/onesignal-laravel
 ```
 
 Aftwards, run `composer update` from your command line.
